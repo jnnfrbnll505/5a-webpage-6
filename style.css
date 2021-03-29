@@ -1,63 +1,36 @@
 body{
-  background: linear-gradient(
-  to bottom,
-  #5d9634,
-  #5d9634 50%,
-  #538c2b 50%,
-  #538c2b
-);
-
-background-size: 100% 28px;
+  display: flex;
+  justify-content: center;
+  background: #e7d1ff;
 }
 
-#container {
+#container{
   position: relative;
-  margin: 0 auto;
-  top: 150px;
-  height: 300px;
-  width: 300px;
+  top: 100px;
+  width: 500px;
+}
+
+#content-box{
   background: #FFF;
+  padding: 15px;
+  margin-bottom: 15px;
 }
 
-#skull {
-  position: absolute;
-  left: 50px;
-  top: 50px;
-  width: 200px;
-  height: 200px;
-  background: pink;
-  animation-play-state: paused;
+ul{
+  position: relative;
+  margin-bottom: 12px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: left;
 }
 
-#eye {
-  position: absolute;
-  left: 25px;
-  top: 40px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: #000;
-  animation-play-state: inherit;
+a{
+  text-decoration: none;
+  background: #FFF;
+  padding: 15px;
 }
 
-#bone-rect {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 400px;
-  height: 50px;
-  background: #CCC;
-}
-
-#bone-knob {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
-  background: #CCC;
-}
-
-.knob-loc {
-  width: -25px;
-  top: -25px;
+a:hover{
+  backgruond: red;
 }
