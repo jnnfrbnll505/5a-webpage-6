@@ -39,3 +39,25 @@ background-size: 100% 28px;
   background: #000;
   animation-play-state: inherit;
 }
+
+#bone-rect {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 400px;
+  height: 50px;
+  background: #CCC;
+}
+
+#bone-knob {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #CCC;
+}
+
+.knob-loc {
+  width: -25px;
+  top: -25px;
+}
