@@ -1,0 +1,30 @@
+body{
+  background: linear-gradient(
+  to bottom,
+  #5d9634,
+  #5d9634 50%,
+  #538c2b 50%,
+  #538c2b
+);
+
+background-size: 100% 28px;
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+  height: 300px;
+  width: 300px;
+  background: #FFF;
+}
+
+#skull {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  background: pink;
+  animation-play-state: paused;
+}
