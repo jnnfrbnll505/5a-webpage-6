@@ -26,35 +26,6 @@ body{
  );
 }
 
-div#circle{
-  width: 200px;
-  height: 200px;
-  justify-content: center;
-  align-items: center;
-  border: 15px solid red;
-  margin: 0 auto;
-  margin-top: 25%;
-  position: relative;
-  animation-name: circle;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-}
-
-div#square {
-  width: 75px;
-  height: 75px;
-  border: 5px solid limegreen;
-  position: absolute;
-  animation-name: square;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
-}
-
-
-
 #slider{
  overflow: hidden;
 }
