@@ -192,7 +192,7 @@ top: 50px;
 .second
 {
   position: absolute;
-  top: 60px;
+  top: 65px;
   right: 90px;
   width: 50px;
   height: 10px;
@@ -235,7 +235,7 @@ top: 50px;
 {
   position: absolute;
   top: 130px;
-  right: 45px;
+  right: 55px;
   width: 50px;
   height: 10px;
   background:#3be016;
@@ -248,8 +248,8 @@ top: 50px;
 .sixth
 {
   position: absolute;
-  top: 130px;
-  left: -1px;
+  top: 135px;
+  left: 45px;
   width: 50px;
   height: 10px;
   background:#f2340a;
@@ -257,5 +257,33 @@ top: 50px;
   border-bottom-right-radius: 5%;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
-  transform: rotate(65deg);
+  transform: rotate(130deg);
+}
+.seventh
+{
+  position: absolute;
+  top: 116px;
+  right:9px;
+  width: 50px;
+  height: 10px;
+  background:#60d6e0;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  transform: rotate(130deg);
+}
+.eight
+{
+  position: absolute;
+  top: 35px;
+  left:28px;
+  width: 50px;
+  height: 10px;
+  background:#f2820a;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  transform: rotate(100deg);
 }
