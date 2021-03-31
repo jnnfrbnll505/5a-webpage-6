@@ -1,3 +1,9 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   display: flex;
   justify-content: center;
@@ -59,7 +65,7 @@ top: 50px;
 .handle
 {
   position: absolute;
-  right: -90px;
+  right: -78px;
   top: -5px;
   width: 120px;
   height: 180px;
@@ -72,7 +78,9 @@ top: 50px;
 
 .vapor
 {
-  position: relative;
+  position: absolute;
+  right: -22px;
+  left: 10px;
   display: flex;
   z-index: 1;
   padding: 0 20px;
@@ -91,6 +99,7 @@ top: 50px;
   animation: vape 5s linear infinite;
   opacity: 0;
   filter:blur(8px);
+  animation-delay: calc(var(--i)* -0.5s);
 }
 @keyframes vape
 {
@@ -125,6 +134,20 @@ top: 50px;
   width: 250px;
   height: 250px;
   background: #b85b19;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+.icing
+{
+  position: absolute;
+  top: 105px;
+  left: -122px;
+  width: 195px;
+  height: 195px;
+  background: #ffffff;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   border-top-left-radius: 50%;
